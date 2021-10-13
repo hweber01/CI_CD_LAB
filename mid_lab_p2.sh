@@ -112,7 +112,7 @@ do
   elif [ $di == 6 ]
   then
     echo "Thank you, exiting"
-    exit 0
+    break
   else
     echo "Enter a number between 1-6 only!"
   fi
